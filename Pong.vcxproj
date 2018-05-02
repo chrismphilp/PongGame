@@ -147,12 +147,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\Pong.h" />
+    <ClInclude Include="src\Ball.h" />
+    <ClInclude Include="src\Block.h" />
+    <ClInclude Include="src\BlockMatrix.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\BrickBreaker.h" />
     <ClInclude Include="include\stdafx.h" />
     <ClInclude Include="include\targetver.h" />
+    <ClInclude Include="src\Racket.h" />
+    <ClInclude Include="src\Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Pong.cpp" />
+    <ClCompile Include="src\BrickBreaker.cpp" />
     <ClCompile Include="include\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
